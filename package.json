@@ -9,9 +9,9 @@
   "user": "clauderic",
   "homepage": "https://github.com/clauderic/react-sortable-hoc",
   "source": "src/index.js",
-  "main": "dist/react-sortable-hoc.js",
+  "main": "src/index.js",
   "umd:main": "dist/react-sortable-hoc.umd.js",
-  "module": "dist/react-sortable-hoc.esm.js",
+  "module": "src/index.js",
   "jsnext:main": "dist/react-sortable-hoc.esm.js",
   "types": "types/index.d.ts",
   "license": "MIT",
@@ -40,8 +40,7 @@
     "start": "start-storybook -p 9001 -c .storybook",
     "build": "rollup -c",
     "test": "eslint src/** --ext .js --quiet",
-    "release": "standard-version --no-verify",
-    "postinstall": "rollup -c"
+    "release": "standard-version --no-verify"
   },
   "husky": {
     "hooks": {
